@@ -1,9 +1,12 @@
-*{
-    margin: 0;
+body{
+
+    font-family: 'Roboto', sans-serif;
 }
 
 .container1{
-height: 800px;
+
+
+    height: 800px;
     width: 100%;
     background: #172755;
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
@@ -45,6 +48,43 @@ height: 700px;
 
 }
 
+header{
+
+    margin: 0px 80px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+
+    list-style: none;
+    font-size: 16px;
+    margin-left: 20px;
+    color: #8794BA;
+
+}
+
+button{
+    font-family: 'Roboto', sans-serif;
+    all: unset;
+    color:  #8794BA;
+    margin-left: 20px;
+    padding: 10px 40px;
+
+}
+button:hover{
+
+
+    border: solid 1px #8794BA;
+    border-radius: 20px;
+
+}
 
 
 
