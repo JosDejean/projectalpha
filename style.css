@@ -8,10 +8,11 @@ body{
 
     height: 800px;
     width: 100%;
-    background: #172755;
+
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
 
     margin-bottom: -10vw;
+    background: url("img/Subtract.png") left top no-repeat, url("img/Subtract2.png") right no-repeat,  #172755;
 
 }
 .diagonalbar{
