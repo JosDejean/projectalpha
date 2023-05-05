@@ -34,13 +34,14 @@ p{
 .container1{
 
 
-    height: 800px;
+
     width: 100%;
 
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
 
     margin-bottom: -10vw;
     background: url("img/Subtract.png") left top no-repeat, url("img/Subtract2.png") right no-repeat,  #172755;
+    padding-bottom: 180px;
 
 }
 .diagonalbar{
@@ -53,7 +54,7 @@ p{
 
 
 .container2{
-height: 1800px;
+
     background: #E5E5E5;
 
     width: 100%;
@@ -113,6 +114,9 @@ button:hover{
 .subcont1{
     margin: 100px 80px;
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .pinkbutton{
     margin-top: 40px;
@@ -264,7 +268,52 @@ font-weight: 700;
     height: 60px;
 }
 
+.titlegraphbox{
 
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.titletext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-left: 150px; */
+    align-items: center;
+    width: 50%;
+    row-gap: 30px;
+}
+.graph{
+
+    width: 50%;
+}
+
+.graph2{
+
+    width: 50%;
+}
+
+.titlegraphbox2{
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: row-reverse;
+}
+
+.titlegraphbox3{
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding-bottom: 180px;
+}
 
 
 
