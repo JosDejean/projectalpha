@@ -16,6 +16,13 @@ font-weight: 700;
     color: white;
 }
 
+h2{
+
+    font-weight: 700;
+    font-size: 40px;
+    color: #172755;
+}
+
 p{
 
     font-size:18px;
@@ -46,18 +53,13 @@ p{
 
 
 .container2{
-height: 800px;
+height: 1200px;
     background: #E5E5E5;
 
     width: 100%;
     clip-path: polygon(0 calc(0% + 10vw), 100% 0, 100% calc(100% - 10vw), 0 100%);
     margin-bottom: -10vw;
     margin-top: -0.2vw;
-
-
-
-
-
 
 }
 
@@ -211,12 +213,56 @@ right: -100%;
 .graphrow{
 
     display: flex;
+    justify-content: center;
 }
 .content-box{
     display: flex;
 }
 
+.subcont3{
 
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subcont3 p{
+
+    margin-top: 40px;
+}
+.subcont4{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    column-gap: 60px;
+}
+
+.iconbox{
+    display: flex;
+    flex-direction: column;
+}
+.iconcaption{
+
+color: #172755;
+font-weight: 700;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.iconbox p{
+
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.iconbox img{
+
+    height: 60px;
+}
 
 
 
