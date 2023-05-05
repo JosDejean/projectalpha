@@ -200,6 +200,22 @@ right: -100%;
 }
 
 
+.subcont2{
+
+    width: 50%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin: 100px 80px;
+}
+
+.graphrow{
+
+    display: flex;
+}
+.content-box{
+    display: flex;
+}
+
 
 
 
