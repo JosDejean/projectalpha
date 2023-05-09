@@ -341,7 +341,11 @@ font-weight: 700;
     text-align: center;
 }
 
-
+.pricebox{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
 
 
 
