@@ -65,11 +65,11 @@ p{
 }
 
 .container3{
-
-height: 700px;
-
-    width: 100%;
     background: #172755;
+    width: 100%;
+    clip-path: polygon(0 calc(-1% + 10vw), 100% 0, 100% calc(100% - 0vw), 0 100%);
+    margin-bottom: -10vw;
+    margin-top: -101px;
 
 }
 
@@ -293,6 +293,8 @@ font-weight: 700;
 .graph2{
 
     width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .titlegraphbox2{
@@ -313,6 +315,30 @@ font-weight: 700;
     align-items: center;
     margin-top: 100px;
     padding-bottom: 180px;
+}
+
+
+
+.subcont4{
+
+
+
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subcont4 h2 {
+
+
+    color: white;
+}
+
+.subcont4 p{
+
+    margin-top: 40px;
+    text-align: center;
 }
 
 
@@ -388,4 +414,6 @@ font-weight: 700;
 
         margin: 0 10px;
     }
+
+
 }
