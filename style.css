@@ -65,7 +65,7 @@ p{
 }
 
 .container3{
-    background: #172755;
+    background: #172755 url("img/Subtract4.png") bottom right no-repeat;
     width: 100%;
     clip-path: polygon(0 calc(-1% + 10vw), 100% 0, 100% calc(100% - 0vw), 0 100%);
     margin-bottom: -10vw;
@@ -79,6 +79,21 @@ header{
     padding-top: 40px;
     display: flex;
     justify-content: space-between;
+}
+
+footer{
+
+
+    margin: 0px 80px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+
+}
+.socialmedia{
+    display: flex;
+    column-gap: 40px;
 }
 
 nav ul{
@@ -200,7 +215,7 @@ right: -100%;
 }
 
 
-.hamburger-menu{
+.mobile-burger{
 
     display: none;
 }
@@ -342,6 +357,7 @@ font-weight: 700;
     display: flex;
     justify-content: center;
     margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 
@@ -349,7 +365,7 @@ font-weight: 700;
 @media(max-width: 768px) {
 
 
-    .hamburger-menu{
+    .mobile-burger{
 
 
         display: inline-block;
@@ -417,4 +433,56 @@ font-weight: 700;
     }
 
 
+    .content-box{
+
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .subcont2{
+
+        width: 100%;
+    }
+    .subcont4{
+        flex-direction: column;
+        align-items: center;
+    }
+    .iconbox{
+        flex-direction: row;
+        column-gap: 30px;
+    }
+    .iconbox p{
+
+        text-align: left;
+    }
+    .textbox{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .titlegraphbox{
+
+        flex-direction: column;
+    }
+    .titlegraphbox2{
+
+        flex-direction: column;
+    }
+    .titlegraphbox3{
+
+        flex-direction: column;
+    }
+    .titletext{
+
+        align-items: center;
+        width: 100%;
+    }
+    .graph{
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }
