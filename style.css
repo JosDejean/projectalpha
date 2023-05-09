@@ -444,6 +444,7 @@ font-weight: 700;
     .subcont2{
 
         width: 100%;
+        margin: 100px 0px;
     }
     .subcont4{
         flex-direction: column;
