@@ -319,23 +319,20 @@ font-weight: 700;
 
 
 
-.subcont4{
-
-
-
+.subcont5{
     padding-top: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.subcont4 h2 {
+.subcont5 h2 {
 
 
     color: white;
 }
 
-.subcont4 p{
+.subcont5 p{
 
     margin-top: 40px;
     text-align: center;
