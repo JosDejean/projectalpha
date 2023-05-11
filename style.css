@@ -28,6 +28,13 @@ h2{
     color: #172755;
 }
 
+h3{
+ font-size: 30px;
+    font-weight: 700;
+    color: white;
+
+}
+
 p{
 
     font-size:18px;
@@ -70,11 +77,11 @@ p{
 }
 
 .container3{
-    background: #172755 url("img/Subtract4.png") bottom right no-repeat;
+    background: #172755 url(img/Subtract4.png) bottom right no-repeat;
     width: 100%;
-    clip-path: polygon(0 calc(-1% + 10vw), 100% 0, 100% calc(100% - 0vw), 0 100%);
+    clip-path: polygon(0 calc(0% + 10vw), 100% 0, 100% calc(100% - 0vw), 0 100%);
     margin-bottom: -10vw;
-    margin-top: -101px;
+    margin-top: -3px
 
 }
 
@@ -308,21 +315,34 @@ font-weight: 700;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* margin-left: 150px; */
+
     align-items: center;
-    width: 50%;
+    width: 47%;
     row-gap: 30px;
+}
+.titletext2{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    width: 47%;
+    row-gap: 30px;
+
 }
 .graph{
 
     width: 50%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .graph2{
 
     width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .titlegraphbox2{
@@ -371,8 +391,94 @@ font-weight: 700;
     justify-content: center;
     margin-top: 70px;
     margin-bottom: 70px;
+    column-gap: 40px;
+
+}
+.priceplan{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 37px;
+    margin-top: 0px;
+    background: #0F1F4B;
+    padding: 46px 80px;
+    border-radius: 35px;
+
+}
+.color-reverse{
+
+    background-color: white;
+}
+.color-reverse h3, .color-reverse .price{
+
+     color: #0F1F4B;
 }
 
+.color-reverse .toprow{
+
+    border-bottom: #D3D9E9 solid 1px;
+}
+.color-reverse .orderbutton{
+
+    color: #0F1F4B;
+
+}
+.color-reverse .orderbutton:hover{
+
+    color: white;
+}
+
+.toprow{
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: #2A407C solid 1px;
+    padding-bottom: 32px;
+    width: 100%;
+}
+
+.middlerow{
+
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+
+
+.orderbutton{
+
+
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: #8794BA solid 1px;
+    border-radius: 25px;
+    padding: 15px 80px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+
+.orderbutton:hover{
+
+
+    background-color: #EF2A82;
+}
+.dollarbox{
+    display: flex;
+}
+.price{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+}
 
 
 @media(max-width: 768px) {
